@@ -1,0 +1,66 @@
+.goal-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  color: #1a1a1a; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.goal-progress-container {
+  height: 12px;
+  background-color: #eee;
+  border-radius: 6px;
+  margin: 8px 0;
+  overflow: hidden;
+}
+
+.goal-progress-bar {
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.3s ease;
+}
+
+.goal-progress-bar.complete {
+  background-color: #2196f3;
+}
+
+.goal-buttons {
+  margin-top: 10px;
+}
+
+.goal-buttons button {
+  margin-right: 8px;
+  padding: 6px 12px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.goal-buttons button:hover {
+  background-color: #333;
+}
+
+.goal-complete {
+  color: green;
+  font-weight: bold;
+}
+
+.goal-overdue {
+  color: red;
+  font-weight: bold;
+}
+
+.goal-warning {
+  color: orange;
+  font-weight: bold;
+}
+
+.goal-card p {
+  margin: 4px 0;
+  font-size: 14px;
+}
