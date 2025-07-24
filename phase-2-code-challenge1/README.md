@@ -34,7 +34,7 @@ npm install
 ```
 3. **Start the mock backend server**
 ```
-npx json-server --watch db.json --port 3000
+npx json-server --watch db.json --port 3001
 ```
 4. **Start the React app**
 ```
